@@ -10,13 +10,14 @@ set PYBLISH_LITE=%~dp0git\pyblish-lite
 set MINDBENDER_CORE=%~dp0git\mindbender-core
 set MINDBENDER_LAUNCHER=%~dp0git\mindbender-launcher
 set MINDBENDER_EXAMPLE=%~dp0git\mindbender-example\projects
+set MINDBENDER_CONFIG=polly
 
-set PATH=%~dp0bin\windows\syncthing;%PATH%
 set PATH=%~dp0bin\windows\python36;%PATH%
 set PATH=%~dp0bin\windows;%PATH%
 set PATH=%~dp0bin;%PATH%
 
-set PYTHONPATH=%~dp0bin\maya\2016\pythonpath
+set PYTHONPATH=%~dp0bin\pythonpath
+set PYTHONPATH=%~dp0\git\mindbender-config;%PYTHONPATH%
 set PYTHONPATH=%MINDBENDER_CORE%;%MINDBENDER_LAUNCHER%;%PYTHONPATH%
 
 set PYBLISHGUI=pyblish_qml
