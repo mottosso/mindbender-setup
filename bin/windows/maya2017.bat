@@ -1,6 +1,6 @@
 @echo off
 
-set __app__="Maya 2016"
+set __app__="Maya 2017"
 set __exe__="c:\program files\autodesk\maya2017\bin\maya.exe"
 if not exist %__exe__% goto :missing_app
 
