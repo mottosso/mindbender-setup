@@ -17,7 +17,7 @@ set PATH=%~dp0bin\windows;%PATH%
 set PATH=%~dp0bin;%PATH%
 
 set PYTHONPATH=%~dp0bin\pythonpath
-set PYTHONPATH=%~dp0\git\mindbender-config;%PYTHONPATH%
+set PYTHONPATH=%~dp0git\mindbender-config;%PYTHONPATH%
 set PYTHONPATH=%MINDBENDER_CORE%;%MINDBENDER_LAUNCHER%;%PYTHONPATH%
 
 set PYBLISHGUI=pyblish_qml
