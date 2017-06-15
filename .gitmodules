@@ -25,3 +25,6 @@
 [submodule "git/mindbender-launcher"]
 	path = git/mindbender-launcher
 	url = https://github.com/mindbender-studio/launcher.git
+[submodule "git/mindbender-config"]
+	path = git/mindbender-config
+	url = https://github.com/mindbender-studio/config.git
