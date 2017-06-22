@@ -1,9 +1,9 @@
-### Mindbender Setup
+### Avalon Setup
 
-Distribution of [mindbender-core](https://github.com/mindbender-studio/core).
+Distribution of [avalon-core](https://github.com/getavalon/core).
 
 This repository contains a pre-configured environment and dependencies for simplified deployment to a remote destination; such as a freelancer or studio working abroad.
 
 - [Installation instructions][instructions]
 
-[instructions]: https://mindbender-studio.github.io/#install
+[instructions]: https://avalon-studio.github.io/#install

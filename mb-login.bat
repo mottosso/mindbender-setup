@@ -14,7 +14,7 @@ echo  Leave blank to use local server (requires MongoDB)
 echo.
 echo  Example
 echo  -------
-echo  set MINDBENDER_MONGO=mongodb://{user}:{pass}@{ip}:{port}
+echo  set AVALON_MONGO=mongodb://{user}:{pass}@{ip}:{port}
 echo.
 echo.
-set /p MINDBENDER_MONGO=$ enter address: 
+set /p AVALON_MONGO=$ enter address: 

@@ -1,5 +1,5 @@
 @echo off
-echo Updating Mindbender Setup..
+echo Updating Avalon Setup..
 echo+
 
 git submodule foreach git reset --hard
