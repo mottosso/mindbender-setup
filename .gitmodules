@@ -28,3 +28,9 @@
 [submodule "git/mindbender-config"]
 	path = git/mindbender-config
 	url = https://github.com/mindbender-studio/config.git
+[submodule "git/avalon-launcher"]
+	path = git/avalon-launcher
+	url = https://github.com/getavalon/launcher.git
+[submodule "git/avalon-core"]
+	path = git/avalon-core
+	url = https://github.com/getavalon/core.git
