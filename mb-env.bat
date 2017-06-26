@@ -10,6 +10,7 @@ set PYBLISH_LITE=%~dp0git\pyblish-lite
 set AVALON_CORE=%~dp0git\avalon-core
 set AVALON_LAUNCHER=%~dp0git\avalon-launcher
 set AVALON_CONFIG=polly
+set AVALON_LABEL=Mindbender
 set MINDBENDER_EXAMPLE=%~dp0git\mindbender-example\projects
 
 set PATH=%~dp0bin\windows\python36;%PATH%
