@@ -6,7 +6,6 @@ default_dirs = [
 	"images"
 ]
 label = "Autodesk Maya 2017"
-arguments = [ "-proj", "{AVALON_WORKDIR}",]
 schema = "avalon-core:application-1.0"
 executable = "maya2017"
 description = ""
@@ -19,6 +18,7 @@ MAYA_DISABLE_CLIC_IPM = "Yes"  # Disable the AdSSO process
 MAYA_DISABLE_CIP = "Yes"  # Shorten time to boot
 MAYA_DISABLE_CER = "Yes"
 PYMEL_SKIP_MEL_INIT = "Yes"
+LC_ALL= "C"  # Mute color management warnings
 PYTHONPATH = [
 	"{AVALON_CORE}/setup/maya",
 	"{PYTHONPATH}"
