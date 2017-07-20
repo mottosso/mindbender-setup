@@ -5,3 +5,4 @@ label = "Shell"
 
 [environment]
 CREATE_NEW_CONSOLE = "Yes"
+PROMPT = "$$ "
