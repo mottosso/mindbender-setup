@@ -7,4 +7,4 @@ if not defined AVALON_LOCATION set AVALON_LOCATION=%MINDBENDER_LOCATION%
 
 set AVALON_LABEL=Mindbender
 
-"%~dp0bin\windows\python36\python.exe" -u %~dp0avalon.py
+"%~dp0bin\windows\python36\python.exe" -u "%~dp0avalon.py"
